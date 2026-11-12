@@ -12,6 +12,16 @@
 
 `<id>` はコンビの id(daio, dondecolte, evers, gokai, ichigo, kabe, kaname, konya, magical, milkboy, ozora, sentinel, shinku, shoganeko, stamina, takuro, zero)。
 
+## 保存用画像(Gemini に渡すインプット画像)の素材 `input/`
+
+| パス | 中身 |
+| --- | --- |
+| `input/bg-tate.webp` | 背景(支給素材 `背景png/縦.png`、1080×1920) |
+| `input/cards/<id>.webp` | 絵札(支給素材 `絵札png/*_100%.png`、枠・名前入り、高さ 1002)。今は evers・takuro・dondecolte |
+| `input/footer.webp` | いちばん下の「Made with Google Gemini」(参考画像「縦-大」から切り出し) |
+
+作り方: `gemini-canvas/make_input_assets.py <支給素材のフォルダ> <このリポジトリ>`。
+
 ## 画像の差し替え
 
 1. 同じパス・同じファイル名で上書きする(大きい方と小さい方の両方)。
