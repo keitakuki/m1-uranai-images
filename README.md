@@ -18,7 +18,7 @@
 | パス | 中身 |
 | --- | --- |
 | `input/bg-tate.webp` | 背景(支給素材 `背景png/縦.png`、1080×1920) |
-| `input/cards/<id>.webp` | 絵札(支給素材 `絵札png/*_100%.png`、枠・名前入り、高さ 1002)。今は evers・takuro・dondecolte |
+| `input/cards/<id>.webp` | 絵札(枠・名前入り、高さ 1002)。今は evers・takuro・dondecolte。棚・3 枚の画面・保存用画像のどれもこの絵を使う。2026-11-13 にモチーフ入りの絵(支給素材 `261113_…素材お渡し/絵札/*.png`)に差し替え。作り方: `gemini-canvas/make_input_assets.py --cards <絵札のフォルダ> <このリポジトリ>` |
 | `input/footer.webp` | いちばん下の「Made with Google Gemini」(参考画像「縦-大」から切り出し) |
 
 作り方: `gemini-canvas/make_input_assets.py <支給素材のフォルダ> <このリポジトリ>`。
